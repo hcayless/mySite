@@ -1,0 +1,8 @@
+tei-head {
+  color: red;
+}
+
+tei-head:before {
+  content: attr(n) ". ";
+  color: blue;
+}
